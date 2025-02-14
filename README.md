@@ -42,28 +42,24 @@ Prerequisites
 
 Example of Use
 
-Login: Enter the username and password to access the app.
 
-User Authentication: Users log in via a simple GUI interface.
+* User Authentication: Users log in via a simple GUI interface.
+
 ![Screenshot 2024-12-06 at 02 54 52](https://github.com/user-attachments/assets/93ac1a18-4923-442a-850c-b0e8234d6afe)
 
 Data Management: Training data is imported via CSV files and organized by activities, which are user-defined with custom names and dates.
 
-Import a CSV File: Use the “Import CSV” button to load a training session, enter the activity’s name and date.
-
 * A Map Panel for plotting the training routes based on GPS data (latitude and longitude).
+  
 ![Screenshot 2024-12-06 at 03 04 40](https://github.com/user-attachments/assets/6d231a12-0cf2-4765-8526-bd0462dfb1d3)
-
-Map and Plot: See the path of the activity on the map and visualize metrics like heart rate, speed, and altitude through dynamic plots.
 
 
 * A Plot Panel displaying time-series graphs for heart rate, speed, and altitude.
+  
 ![Screenshot 2024-12-06 at 03 08 44](https://github.com/user-attachments/assets/bf8897ab-6083-492b-a7db-7ad25975d006)
 
-View the Activity: Once imported, you can select the activity from a list and view detailed statistics in both tabular and graphical formats.
-
-
 * A Statistics Panel that presents key metrics like total distance, average and maximum heart rate, speed, and altitude.
+  
 ![Screenshot 2024-12-06 at 03 11 16](https://github.com/user-attachments/assets/4330914e-9cdb-41eb-b3cc-411cf1908ca1)
 
 
