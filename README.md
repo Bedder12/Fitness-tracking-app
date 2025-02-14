@@ -1,6 +1,46 @@
-# Fitness-tracking-app
-This project is a prototype of a fitness tracking application designed for St8tus4U's training watch. The app allows users to monitor outdoor training activities by visualizing data such as heart rate, speed, altitude, and distance through interactive graphs and maps. It provides features for importing training data, creating and managing activities, and storing user data between sessions.
+# St8tus4U's Clock - Fitness Tracker Application
 
+The St8tus4U's Clock project is a fitness tracking application developed to visualize and analyze training data gathered from the St8tus4U fitness watch. The app provides users with an intuitive interface to track their outdoor activities, such as running, cycling, or hiking, and visualize key parameters like heart rate, speed, altitude, and distance. The app also supports importing CSV files, saving activities, and offering statistical insights into each training session.
+
+# Features
+
+- Login System: User authentication using username and password.
+- Activity Management: Import and save training activities with customizable names and dates.
+- Data Visualization: Graphical representations of heart rate, speed, and altitude using dynamic charts.
+- Map Visualization: View the route of an activity on a map based on latitude and longitude data.
+- Statistics Panel: Display statistics such as total distance, maximum, minimum, and average speed and heart rate.
+- Persistent Storage: Data is saved and loaded between sessions for continuous tracking.
+
+# System Architecture
+The application follows the Model-View-Controller (MVC) design pattern, ensuring separation of concerns and promoting modularity. The program consists of the following components:
+
+- Model: Manages and stores activity data. Key classes include Activity, ActivityManager, TrackPoint, and TextAnalyzer.
+- View: Handles the user interface, with classes like UserGUI, MapGUI, and PlotGUI.
+- Controller: Acts as the intermediary between the model and the view, managing user input and updating the view accordingly.
+
+# How to Run the Program
+Prerequisites
+- Java Development Kit (JDK) installed
+- Java IDE (e.g., IntelliJ IDEA, Eclipse)
+
+# Steps to Run the Application
+1. Download and Extract Files:
+- Download the ZIP file containing the project files and data CSV files.
+- Extract the contents to a folder on your machine.
+
+2. Set Up CSV Files:
+- Place the CSV files activities.csv and trackPoints.csv in an accessible folder.
+
+3. Open the Project:
+   Open the project in your Java IDE.
+   
+4. Configure File Paths:
+- Modify the file path in the Controller class to point to the location where the CSV files are stored.
+
+5. Run the Program:
+- Execute the Main class to start the application.
+
+ 
 User Authentication: Users log in via a simple GUI interface.
 ![Screenshot 2024-12-06 at 02 54 52](https://github.com/user-attachments/assets/93ac1a18-4923-442a-850c-b0e8234d6afe)
 
